@@ -1,0 +1,7 @@
+#produto .titulo{
+    text-align: center;
+    font-size: 3.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
