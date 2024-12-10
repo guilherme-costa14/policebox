@@ -59,6 +59,7 @@ header nav.menu-perfil{
 
 #banner {
     background-color: tomato;
+    height: 100%;
 }
 
 .container-carrossel{
@@ -68,4 +69,15 @@ header nav.menu-perfil{
 
 .container-carrossel img{
     width: 100%;
+}
+
+.container-carrossel button{
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--color-white);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
 }
