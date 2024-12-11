@@ -4,6 +4,8 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 #produto figure{
@@ -46,10 +48,15 @@
     color: var(--color-violet);
     font-size: 1.2rem;
     font-weight: 900;
-    text-align: end;
+    /* text-align: end; */
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 
 #produto figcaption span.avaliacao{
     color: var(--color-gold);
     font-size: 1.3rem;
+    line-height: 30px;
 }
