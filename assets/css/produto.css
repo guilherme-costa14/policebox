@@ -11,6 +11,9 @@
     max-width: 400px;
     width: 100%;
     height: 530px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 0;
 }
 
 #produto .foto-produto{
@@ -18,4 +21,35 @@
     width: 95%;
     max-height: 380px;
     height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#produto figcaption{
+    /* background-color: tomato; */
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    max-width: 100%;
+    justify-content: space-between;
+
+}
+
+#produto figcaption h4{
+    font-size: auto;
+    font-weight: 700;
+    text-align: start;
+}
+
+#produto figcaption span.preco{
+    color: var(--color-violet);
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: end;
+}
+
+#produto figcaption span.avaliacao{
+    color: var(--color-gold);
+    font-size: 1.3rem;
 }
