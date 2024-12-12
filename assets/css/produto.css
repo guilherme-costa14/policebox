@@ -60,3 +60,8 @@
     font-size: 1.3rem;
     line-height: 30px;
 }
+
+#produto a{
+    text-decoration: none;
+    color: var(--color-black);
+}
