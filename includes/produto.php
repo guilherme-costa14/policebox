@@ -5,7 +5,7 @@
             <?php foreach ($dadosProdutos as $dados) { ?>
                 <div class="col-3">
                     <figure>
-                        <a href="">
+                        <a href="./detalhes.php?id=<?= $dados['id']?>">
                             <img src="./assets/img/poster/<?= $dados['imagem'] ?>" alt="poster Assassin's Creed Mirage" class="foto-produto">
                             <figcaption>
                                 <h4><?= $dados['titulo'] ?></h4>
